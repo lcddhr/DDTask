@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64CD6CEE20F3332100B67C54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CD6CED20F3332100B67C54 /* AppDelegate.m */; };
+		64CD6CF020F3332200B67C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CD6CEF20F3332200B67C54 /* Assets.xcassets */; };
+		64CD6CF320F3332200B67C54 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CD6CF120F3332200B67C54 /* MainMenu.xib */; };
+		64CD6CF620F3332200B67C54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CD6CF520F3332200B67C54 /* main.m */; };
+		64CD6D2C20F3575D00B67C54 /* DDTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CD6D2720F3575D00B67C54 /* DDTask.m */; };
+		64CD6D2D20F3575D00B67C54 /* DDTask+zip.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CD6D2820F3575D00B67C54 /* DDTask+zip.m */; };
+		64CD6D2E20F3575D00B67C54 /* DDTaskConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CD6D2920F3575D00B67C54 /* DDTaskConfig.m */; };
+		64CD6D2F20F3575D00B67C54 /* DDRunloop.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CD6D2B20F3575D00B67C54 /* DDRunloop.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64CD6CE920F3332100B67C54 /* NSTaskPackage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTaskPackage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CD6CEC20F3332100B67C54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64CD6CED20F3332100B67C54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64CD6CEF20F3332200B67C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64CD6CF220F3332200B67C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		64CD6CF420F3332200B67C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64CD6CF520F3332200B67C54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64CD6CF720F3332200B67C54 /* NSTaskPackage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSTaskPackage.entitlements; sourceTree = "<group>"; };
+		64CD6D2420F3575D00B67C54 /* DDTask+zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDTask+zip.h"; sourceTree = "<group>"; };
+		64CD6D2520F3575D00B67C54 /* DDRunloop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRunloop.h; sourceTree = "<group>"; };
+		64CD6D2620F3575D00B67C54 /* DDTaskConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTaskConfig.h; sourceTree = "<group>"; };
+		64CD6D2720F3575D00B67C54 /* DDTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTask.m; sourceTree = "<group>"; };
+		64CD6D2820F3575D00B67C54 /* DDTask+zip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DDTask+zip.m"; sourceTree = "<group>"; };
+		64CD6D2920F3575D00B67C54 /* DDTaskConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTaskConfig.m; sourceTree = "<group>"; };
+		64CD6D2A20F3575D00B67C54 /* DDTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTask.h; sourceTree = "<group>"; };
+		64CD6D2B20F3575D00B67C54 /* DDRunloop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRunloop.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64CD6CE620F3332100B67C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64CD6CE020F3332100B67C54 = {
+			isa = PBXGroup;
+			children = (
+				64CD6CEB20F3332100B67C54 /* NSTaskPackage */,
+				64CD6CEA20F3332100B67C54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64CD6CEA20F3332100B67C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64CD6CE920F3332100B67C54 /* NSTaskPackage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64CD6CEB20F3332100B67C54 /* NSTaskPackage */ = {
+			isa = PBXGroup;
+			children = (
+				64CD6D2320F3575D00B67C54 /* DDTask */,
+				64CD6CEC20F3332100B67C54 /* AppDelegate.h */,
+				64CD6CED20F3332100B67C54 /* AppDelegate.m */,
+				64CD6CEF20F3332200B67C54 /* Assets.xcassets */,
+				64CD6CF120F3332200B67C54 /* MainMenu.xib */,
+				64CD6CF420F3332200B67C54 /* Info.plist */,
+				64CD6CF520F3332200B67C54 /* main.m */,
+				64CD6CF720F3332200B67C54 /* NSTaskPackage.entitlements */,
+			);
+			path = NSTaskPackage;
+			sourceTree = "<group>";
+		};
+		64CD6D2320F3575D00B67C54 /* DDTask */ = {
+			isa = PBXGroup;
+			children = (
+				64CD6D2420F3575D00B67C54 /* DDTask+zip.h */,
+				64CD6D2520F3575D00B67C54 /* DDRunloop.h */,
+				64CD6D2620F3575D00B67C54 /* DDTaskConfig.h */,
+				64CD6D2720F3575D00B67C54 /* DDTask.m */,
+				64CD6D2820F3575D00B67C54 /* DDTask+zip.m */,
+				64CD6D2920F3575D00B67C54 /* DDTaskConfig.m */,
+				64CD6D2A20F3575D00B67C54 /* DDTask.h */,
+				64CD6D2B20F3575D00B67C54 /* DDRunloop.m */,
+			);
+			path = DDTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64CD6CE820F3332100B67C54 /* NSTaskPackage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CD6CFA20F3332200B67C54 /* Build configuration list for PBXNativeTarget "NSTaskPackage" */;
+			buildPhases = (
+				64CD6CE520F3332100B67C54 /* Sources */,
+				64CD6CE620F3332100B67C54 /* Frameworks */,
+				64CD6CE720F3332100B67C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTaskPackage;
+			productName = NSTaskPackage;
+			productReference = 64CD6CE920F3332100B67C54 /* NSTaskPackage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64CD6CE120F3332100B67C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = lcd;
+				TargetAttributes = {
+					64CD6CE820F3332100B67C54 = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 64CD6CE420F3332100B67C54 /* Build configuration list for PBXProject "NSTaskPackage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64CD6CE020F3332100B67C54;
+			productRefGroup = 64CD6CEA20F3332100B67C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64CD6CE820F3332100B67C54 /* NSTaskPackage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64CD6CE720F3332100B67C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CD6CF020F3332200B67C54 /* Assets.xcassets in Resources */,
+				64CD6CF320F3332200B67C54 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64CD6CE520F3332100B67C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CD6D2D20F3575D00B67C54 /* DDTask+zip.m in Sources */,
+				64CD6D2F20F3575D00B67C54 /* DDRunloop.m in Sources */,
+				64CD6CF620F3332200B67C54 /* main.m in Sources */,
+				64CD6D2C20F3575D00B67C54 /* DDTask.m in Sources */,
+				64CD6CEE20F3332100B67C54 /* AppDelegate.m in Sources */,
+				64CD6D2E20F3575D00B67C54 /* DDTaskConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64CD6CF120F3332200B67C54 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CD6CF220F3332200B67C54 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64CD6CF820F3332200B67C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		64CD6CF920F3332200B67C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		64CD6CFB20F3332200B67C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTaskPackage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.NSTaskPackage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64CD6CFC20F3332200B67C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTaskPackage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.NSTaskPackage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64CD6CE420F3332100B67C54 /* Build configuration list for PBXProject "NSTaskPackage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CD6CF820F3332200B67C54 /* Debug */,
+				64CD6CF920F3332200B67C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CD6CFA20F3332200B67C54 /* Build configuration list for PBXNativeTarget "NSTaskPackage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CD6CFB20F3332200B67C54 /* Debug */,
+				64CD6CFC20F3332200B67C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64CD6CE120F3332100B67C54 /* Project object */;
+}
